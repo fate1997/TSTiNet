@@ -1,7 +1,6 @@
 # Transition state theory-inspired neural network for estimation of the viscosity of deep eutectic solvents
 This is a implentation of our paper "Transition state theory-inspired neural network for estimation of the viscosity of deep eutectic solvents":
 
-!!! to be added
 
 ## Requirements
 - scikit-learn == 0.24.2
@@ -22,8 +21,12 @@ If you want to use our model to predict the viscosity of specified deep eutectic
 4. `python predict.py`
 
 
+If you want to train a new model, you can just run the code:
+
+`cd model && python TSTiNet-mixed.py`
+
 ## Cite
 If you use TSTiNet in your research, please cite:
 ```
-Bib file (after published)
+@article{...}
 ```
